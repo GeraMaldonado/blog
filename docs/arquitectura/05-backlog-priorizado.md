@@ -1,4 +1,4 @@
-# 📋 Backlog Priorizado – Blog Técnico Personal
+# Backlog Priorizado – Blog Técnico Personal
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Organizar las historias de usuario derivadas del User Story Map según su priori
 
 ---
 
-## 🔢 Escalas utilizadas
+## Escalas utilizadas
 
 - **Prioridad**:
   - 🟦 Alta: esencial para MVP o uso base
@@ -23,7 +23,7 @@ Organizar las historias de usuario derivadas del User Story Map según su priori
 
 ---
 
-## 📌 Backlog estimado
+## Backlog estimado
 
 | Historia de Usuario                                                                 | Prioridad | Puntos | Estado     |
 |-------------------------------------------------------------------------------------|-----------|--------|------------|
@@ -51,12 +51,6 @@ Organizar las historias de usuario derivadas del User Story Map según su priori
 
 ---
 
-## 🛠️ Notas
+## Notas
 
 Este backlog crecerá y cambiará conforme se diseñen e implementen los módulos. Cada historia puede derivar en tareas técnicas para desarrollo y pruebas.
-
-Siguientes pasos:
-- Relacionar historias con módulos (auth, posts, notifications, etc.)
-- Crear issues en GitHub o tareas en un sistema de seguimiento
-- Diseñar flujos técnicos por historia prioritaria
-
