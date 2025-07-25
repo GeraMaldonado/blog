@@ -1,10 +1,10 @@
-# 📊 Atributos de Calidad – Blog Técnico Personal
+# Atributos de Calidad – Blog Técnico Personal
 
 ## Escenarios de Calidad
 
 ---
 
-### 🔐 Escenario 1 – Seguridad ante intento de acceso no autorizado
+### Escenario 1 – Seguridad ante intento de acceso no autorizado
 
 - **Fuente de estímulo:** Usuario (o bot) con token manipulado o expirado
 - **Estímulo:** Realiza un intento de acceso con un token inválido
@@ -17,7 +17,7 @@
 
 ---
 
-### 💥 Escenario 2 – Seguridad ante ataques tipo inyección SQL o fuerza bruta
+### Escenario 2 – Seguridad ante ataques tipo inyección SQL o fuerza bruta
 
 - **Fuente de estímulo:** Usuario o bot ejecutando múltiples intentos de ingreso con datos maliciosos
 - **Estímulo:** Se reciben múltiples peticiones sospechosas en un periodo corto
@@ -30,7 +30,7 @@
 
 ---
 
-### 🔧 Escenario 3 – Mantenibilidad y evolución del sistema
+### Escenario 3 – Mantenibilidad y evolución del sistema
 
 - **Fuente de estímulo:** Desarrollador
 - **Estímulo:** Se solicita agregar un nuevo módulo (ej. notificaciones)
@@ -43,7 +43,7 @@
 
 ---
 
-### ⚙️ Escenario 4 – Rendimiento ante múltiples usuarios
+### Escenario 4 – Rendimiento ante múltiples usuarios
 
 - **Fuente de estímulo:** Usuarios concurrentes
 - **Estímulo:** 50 usuarios intentan acceder, leer y comentar al mismo tiempo
@@ -56,7 +56,7 @@
 
 ---
 
-### ♻️ Escenario 5 – Disponibilidad y recuperación ante falla
+### Escenario 5 – Disponibilidad y recuperación ante falla
 
 - **Fuente de estímulo:** Falla del contenedor de backend
 - **Estímulo:** El backend se apaga inesperadamente o requiere reinicio
