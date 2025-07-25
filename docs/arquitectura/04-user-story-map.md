@@ -1,4 +1,4 @@
-# 🗺️ User Story Mapping – Blog Técnico Personal
+# User Story Mapping – Blog Técnico Personal
 
 ## Objetivo
 
@@ -6,15 +6,15 @@ Visualizar y organizar las funcionalidades del sistema desde la perspectiva del 
 
 ---
 
-## 🔗 Enlace al mapa en Miro
+## Enlace al mapa en Miro
 
 El mapa completo con épicas, historias y colores está disponible visualmente en Miro:
 
-👉 [Enlace al tablero de Miro](https://miro.com/welcomeonboard/aUVHQUpuQXR1MWR3UDU0WkJwMjdMd1ZVdjFmeWJ5TDN6bmwvb0taSjFzUk5BYVhNTnN3UU01a0cvY1hjaHJBMEtubjR6U0RPM2l6aGpPbktDd1VJOXZiakMvTGluYlJ6bXd1MkVTZWR1TDhieHNJQ05LSVNuSUc3NTZrN2YrMElBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=171134461026)
+[Mapta de historias de usuario](https://miro.com/welcomeonboard/aUVHQUpuQXR1MWR3UDU0WkJwMjdMd1ZVdjFmeWJ5TDN6bmwvb0taSjFzUk5BYVhNTnN3UU01a0cvY1hjaHJBMEtubjR6U0RPM2l6aGpPbktDd1VJOXZiakMvTGluYlJ6bXd1MkVTZWR1TDhieHNJQ05LSVNuSUc3NTZrN2YrMElBd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=171134461026)
 
 ---
 
-## 🧱 Épicas identificadas
+## Épicas identificadas
 
 1. Gestión de publicaciones
 2. Gestión de comentarios
@@ -29,7 +29,7 @@ El mapa completo con épicas, historias y colores está disponible visualmente e
 
 ---
 
-## ✅ MVP (mínimo producto viable)
+## MVP (mínimo producto viable)
 - Crear, editar y eliminar publicaciones propias
 - Comentar publicaciones
 - Registro e inicio de sesión
@@ -37,7 +37,7 @@ El mapa completo con épicas, historias y colores está disponible visualmente e
 
 ---
 
-## 📥 Backlog funcional
+## Backlog funcional
 - Formato enriquecido en publicaciones (negritas, bloques de código, imágenes)
 - Búsqueda de posts por palabra, tema o etiqueta
 - Vista inicial con lo más reciente / comentado / visto
@@ -50,7 +50,7 @@ El mapa completo con épicas, historias y colores está disponible visualmente e
 
 ---
 
-## 🛠️ Siguientes pasos
+## Siguientes pasos
 - Asignar prioridades (alta/media/baja)
 - Estimar esfuerzo (story points con Fibonacci)
 - Definir qué historias entran en versión 2
