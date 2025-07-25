@@ -1,4 +1,4 @@
-# 🧩 Funcionalidad Primaria – Blog Técnico Personal
+# Funcionalidad Primaria – Blog Técnico Personal
 
 ## 1. Tipos de Usuario
 
