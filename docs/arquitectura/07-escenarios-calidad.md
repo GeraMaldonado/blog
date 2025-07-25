@@ -1,4 +1,4 @@
-# 🛡 Escenarios de Calidad – Blog Técnico Personal
+# Escenarios de Calidad – Blog Técnico Personal
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Especificar escenarios de calidad concretos para validar los atributos arquitect
 
 ---
 
-## 🔐 Seguridad
+## Seguridad
 
 ### Escenario 1: Acceso con token vencido o manipulado
 - **Fuente de estímulo**: Usuario autenticado con token JWT
@@ -31,7 +31,7 @@ Especificar escenarios de calidad concretos para validar los atributos arquitect
 
 ---
 
-## 🛠 Mantenibilidad
+## Mantenibilidad
 
 ### Escenario 3: Agregar nuevo módulo (por ejemplo, reportes de bugs)
 - **Fuente de estímulo**: Desarrollador
@@ -46,7 +46,7 @@ Especificar escenarios de calidad concretos para validar los atributos arquitect
 
 ---
 
-## 📈 Escalabilidad
+## Escalabilidad
 
 ### Escenario 4: Aumento de usuarios activos simultáneos
 - **Fuente de estímulo**: Usuarios concurrentes
@@ -60,7 +60,7 @@ Especificar escenarios de calidad concretos para validar los atributos arquitect
 
 ---
 
-## ♻ Disponibilidad y Respaldo
+## Disponibilidad y Respaldo
 
 ### Escenario 5: Falla completa del VPS
 - **Fuente de estímulo**: VPS deja de responder
@@ -71,10 +71,3 @@ Especificar escenarios de calidad concretos para validar los atributos arquitect
   - Respaldos semanales restauran el sistema
   - Contenedores se pueden reconstruir rápidamente
 - **Medida**: Recuperación completa del sistema en < 24 horas
-
----
-
-## ✅ Conclusión
-
-Estos escenarios pueden ser automatizados como pruebas funcionales o revisiones manuales. Son un soporte fundamental para evaluar si la arquitectura está cumpliendo con sus objetivos de calidad y qué tan costoso sería mejorarla si no lo hace.
-

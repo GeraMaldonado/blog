@@ -1,4 +1,4 @@
-# 🔧 Vista de Desarrollo – Blog Técnico Personal
+# Vista de Desarrollo – Blog Técnico Personal
 
 ## Objetivo
 
@@ -6,14 +6,14 @@ Describir la organización interna del código fuente del backend y frontend del
 
 ---
 
-## 🏗 Estructura actual del backend
+## Estructura actual del backend
 
 El backend sigue una arquitectura **modular MVC**, con división por entidad (auth, posts, comments, etc.). Cada módulo incluye:
 
 - `controller` → recibe la petición y delega
 - `router` → define las rutas
 - `service` → contiene la lógica de negocio
-- `model.ts` → Prisma ORM (MySQL)
+- `model.ts` → Prisma ORM
 - `validations.ts` → validaciones con Zod/Yup/etc.
 - `dtos/` → definiciones de objetos de transferencia
 - `interfaces/` → tipos TS específicos
@@ -26,7 +26,7 @@ Adicionalmente:
 - `utils/` → utilidades generales
 - `router/router.ts` → punto de entrada de rutas
 - `index.ts` → servidor HTTP
-- `database/` → conexión a MySQL
+- `database/` → conexión a base de datos por ORM
 
 ### Estructura deseada (reorganizable)
 
@@ -42,12 +42,11 @@ La recomienda es migrar hacia esta estructura:
 │   ├── posts/
 │   ├── comments/
 │   └── notifications/     # Futura separación como microservicio
-├── prisma/                # Esquema y migraciones
 ├── router/                # Punto central de rutas
 └── index.ts               # Entry point
 ```
 
-Esta estructura facilita:
+Esta uestructura facilita:
 
 - Escalar con microservicios
 - Reutilizar módulos en otros proyectos
@@ -55,7 +54,7 @@ Esta estructura facilita:
 
 ---
 
-## 🎨 Frontend (proyectado)
+## Frontend (proyectado)
 
 El frontend se encuentra en desarrollo, pero se está alineando a una arquitectura React modular por componente, con carpetas para:
 
@@ -76,7 +75,7 @@ Esto permite:
 
 ---
 
-## 🔗 Dependencias entre módulos
+## Dependencias entre módulos
 
 - `auth` depende de `users` para validar identidad
 - `comments` y `posts` se relacionan entre sí por ID
@@ -87,7 +86,7 @@ Esto permite:
 
 ---
 
-## 🛠 Consideraciones futuras
+## Consideraciones futuras
 
 - `notifications` y `emails` podrían extraerse como microservicios con Docker
 - Si se adopta CQRS o eventos, se puede separar lectura/escritura
@@ -95,7 +94,7 @@ Esto permite:
 
 ---
 
-## ✍️ Estado actual
+## Estado actual
 
 - Backend ya funcional con MVC modular
 - Frontend en transición hacia estructura recomendada

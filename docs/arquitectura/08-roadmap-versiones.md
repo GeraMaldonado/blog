@@ -1,4 +1,4 @@
-# 📆 Roadmap de Versiones – Blog Técnico Personal
+# Roadmap de Versiones – Blog Técnico Personal
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Establecer un plan de evolución funcional del sistema, dividiendo las funcional
 
 ---
 
-## 🟢 Versión MVP (v1.0)
+## Versión MVP (v1.0)
 
 ### Funcionalidades principales
 - Registro y autenticación de usuarios (JWT + verificación por correo)
@@ -25,7 +25,7 @@ Establecer un plan de evolución funcional del sistema, dividiendo las funcional
 
 ---
 
-## 🟡 Versión 2 (v2.0)
+## Versión 2 (v2.0)
 
 ### Nuevas funcionalidades
 - Subida de imágenes de perfil y portada para posts
@@ -43,7 +43,7 @@ Establecer un plan de evolución funcional del sistema, dividiendo las funcional
 
 ---
 
-## 🟠 Versión 3 (v3.0)
+## Versión 3 (v3.0)
 
 ### Expansiones sociales y de interacción
 - Mensajes directos entre usuarios
@@ -59,7 +59,7 @@ Establecer un plan de evolución funcional del sistema, dividiendo las funcional
 
 ---
 
-## 🔵 Versión 4 (v4.0+)
+## Versión 4 (v4.0+)
 
 ### Funcionalidades avanzadas
 - Videollamadas entre usuarios
@@ -75,7 +75,7 @@ Establecer un plan de evolución funcional del sistema, dividiendo las funcional
 
 ---
 
-## 📝 Notas finales
+## Notas finales
 
 - Las versiones no tienen una fecha fija, pero están pensadas como hitos lógicos de complejidad creciente
 - El sistema permite mantener una arquitectura modular con posibilidad de migrar partes a microservicios conforme se avanza
