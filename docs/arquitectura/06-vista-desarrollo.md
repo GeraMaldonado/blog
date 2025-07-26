@@ -10,23 +10,23 @@ Describir la organización interna del código fuente del backend y frontend del
 
 El backend sigue una arquitectura **modular MVC**, con división por entidad (auth, posts, comments, etc.). Cada módulo incluye:
 
-- `controller` → recibe la petición y delega
-- `router` → define las rutas
-- `service` → contiene la lógica de negocio
-- `model.ts` → Prisma ORM
-- `validations.ts` → validaciones con Zod/Yup/etc.
-- `dtos/` → definiciones de objetos de transferencia
-- `interfaces/` → tipos TS específicos
+- `controller` -> recibe la petición y delega
+- `router` -> define las rutas
+- `service` -> contiene la lógica de negocio
+- `model.ts` -> Prisma ORM
+- `validations.ts` -> validaciones con Zod/Yup/etc.
+- `dtos/` -> definiciones de objetos de transferencia
+- `interfaces/` -> tipos TS específicos
 
 Adicionalmente:
 
-- `emails/` → servicio de correo y plantillas (remplazar a futuro por modulo email aparte)
-- `errors/` → manejadores y errores personalizados
-- `services/` → servicios compartidos como cache o verificaciones
-- `utils/` → utilidades generales
-- `router/router.ts` → punto de entrada de rutas
-- `index.ts` → servidor HTTP
-- `database/` → conexión a base de datos por ORM
+- `emails/` -> servicio de correo y plantillas (remplazar a futuro por modulo email aparte)
+- `errors/` -> manejadores y errores personalizados
+- `services/` -> servicios compartidos como cache o verificaciones
+- `utils/` -> utilidades generales
+- `router/router.ts` -> punto de entrada de rutas
+- `index.ts` -> servidor HTTP
+- `database/` -> conexión a base de datos por ORM
 
 ### Estructura deseada (reorganizable)
 
@@ -34,16 +34,16 @@ La recomienda es migrar hacia esta estructura:
 
 ```
 /src
-├── config/                # Variables, constantes, secretos
-├── core/                  # Middlewares, errores, utilidades
-├── modules/               # Cada funcionalidad del sistema
+├── config/
+├── core/
+├── modules/
 │   ├── auth/
 │   ├── users/
 │   ├── posts/
 │   ├── comments/
-│   └── notifications/     # Futura separación como microservicio
-├── router/                # Punto central de rutas
-└── index.ts               # Entry point
+│   └── notifications/
+├── router/
+└── index.ts
 ```
 
 Esta uestructura facilita:
@@ -58,14 +58,14 @@ Esta uestructura facilita:
 
 El frontend se encuentra en desarrollo, pero se está alineando a una arquitectura React modular por componente, con carpetas para:
 
-- `components/` → subcarpetas por dominio (`auth`, `posts`, `layout`, etc.)
-- `pages/` → vistas de React Router
-- `services/` → llamadas a la API REST
-- `contexts/` → manejo de estado con React Context API
-- `types/` → definiciones globales
-- `hooks/` → hooks personalizados
-- `utils/` → formateadores y helpers
-- `routes/` → rutas centralizadas
+- `components/` -> subcarpetas por dominio (`auth`, `posts`, `layout`, etc.)
+- `pages/` -> vistas de React Router
+- `services/` -> llamadas a la API REST
+- `contexts/` -> manejo de estado con React Context API
+- `types/` -> definiciones globales
+- `hooks/` -> hooks personalizados
+- `utils/` -> formateadores y helpers
+- `routes/` -> rutas centralizadas
 
 Esto permite:
 
