@@ -1,4 +1,4 @@
-# 🧱 Vista Lógica del Sistema – Blog Técnico Personal
+# Vista Lógica del Sistema – Blog Técnico Personal
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Describir cómo está organizado el sistema en módulos y cómo se estructura la
 
 ---
 
-## 🧩 Backend – Node.js + Express (MVC modular por entidad)
+## Backend – Node.js + Express (MVC modular por entidad)
 
 El backend sigue una arquitectura tipo MVC, con una estructura modular organizada por entidad (auth, users, posts, comments, etc.). Cada entidad contiene su propia lógica distribuida en:
 
@@ -23,7 +23,7 @@ También existen capas adicionales para servicios transversales (`emails/`, `ser
 ```
 posts/
 ├── posts.controller.ts
-├── posts.model.ts / posts.model.mongo.ts
+├── posts.model.ts
 ├── posts.router.ts
 ├── posts.validations.ts
 ├── dto/
@@ -37,7 +37,7 @@ posts/
 
 ---
 
-## 🎨 Frontend – React + TypeScript (estructura por dominio y función)
+## Frontend – React + TypeScript (estructura por dominio y función)
 
 El frontend está en construcción, pero sigue una estructura clara inspirada en principios de separación por responsabilidad. La organización se basa en:
 
@@ -54,7 +54,7 @@ El frontend está en construcción, pero sigue una estructura clara inspirada en
 
 ---
 
-## 🔗 Conexiones clave entre módulos
+## Conexiones clave entre módulos
 
 - Los **comentarios** dependen tanto de la entidad `user` como de `post`
 - Los **tokens JWT** se gestionan vía `auth` y son verificados por middlewares para acceder a `posts`, `comments`, etc.

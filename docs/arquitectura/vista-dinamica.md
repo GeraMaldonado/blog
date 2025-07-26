@@ -1,4 +1,4 @@
-# 🔄 Vista Dinámica – Flujo de creación de comentario
+# Vista Dinámica – Flujo de creación de comentario
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Describir paso a paso cómo fluye la creación de un comentario en el sistema, d
 
 ---
 
-## 🎯 Escenario: Crear un comentario en un post
+## Escenario: Crear un comentario en un post
 
 ### 1. Interacción inicial en el frontend
 - El usuario visualiza un post en `Post.tsx`
@@ -32,7 +32,7 @@ Describir paso a paso cómo fluye la creación de un comentario en el sistema, d
   - El usuario existe en la base de datos
   - El post al que se comenta existe
   - El contenido cumple con reglas básicas
-- Si todo es válido, se crea el comentario en base de datos (Prisma + MySQL)
+- Si todo es válido, se crea el comentario en base de datos (Prisma)
 
 ### 5. Respuesta al cliente
 - El backend responde con:
@@ -46,14 +46,14 @@ Describir paso a paso cómo fluye la creación de un comentario en el sistema, d
 
 ---
 
-## 🔐 Consideraciones de seguridad
+## Consideraciones de seguridad
 - El token se almacena en cookies (no en localStorage)
 - Solo el `userId` y `username` se almacenan en localStorage
 - En caso de errores repetidos, el usuario es bloqueado temporalmente
 
 ---
 
-## 💡 Notas
+## Notas
 Este flujo refleja una separación clara de responsabilidades:
 - Validaciones preliminares en el frontend
 - Verificación de sesión con JWT y refresh tokens

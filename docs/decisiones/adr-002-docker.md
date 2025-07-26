@@ -14,12 +14,12 @@ Se utilizará `docker-compose` en entornos de desarrollo y pruebas para facilita
 
 ## Consecuencias
 
-- ✅ Aislamos cada componente en su propio contenedor, lo que permite mayor portabilidad
-- ✅ Facilita la replicación de entornos en distintos equipos o servidores
-- ✅ Permite automatizar despliegues con herramientas como GitHub Actions
-- ✅ Define infraestructura como código
-- ⚠️ Requiere aprendizaje y mantenimiento de archivos Docker y Compose
-- ⚠️ Aumenta el tiempo de build en cada cambio si no se optimizan bien las capas
+- \+ Aislamos cada componente en su propio contenedor, lo que permite mayor portabilidad
+- \+ Facilita la replicación de entornos en distintos equipos o servidores
+- \+ Permite automatizar despliegues con herramientas como GitHub Actions
+- \+ Define infraestructura como código
+- \- Requiere aprendizaje y mantenimiento de archivos Docker y Compose
+- \- Aumenta el tiempo de build en cada cambio si no se optimizan bien las capas
 
 ## Estado
 

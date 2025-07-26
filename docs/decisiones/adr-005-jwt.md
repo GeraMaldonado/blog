@@ -19,13 +19,13 @@ Se implementó JWT como método principal de autenticación. Los tokens son gene
 
 ## Consecuencias
 
-- ✅ Autenticación sin estado, ideal para APIs REST
-- ✅ Fácil de integrar con middleware en Express
-- ✅ Escalable a múltiples instancias del backend sin necesidad de sincronizar sesiones
-- ✅ Uso de cookies y refresh token mejora la seguridad
-- ⚠️ Requiere expiración controlada y estrategia para revocar tokens
-- ⚠️ Aumenta la complejidad de gestión de sesiones (múltiples tokens, rutas de renovación)
-- ⚠️ En caso de robo del refresh token, se necesitará una estrategia para invalidarlo por usuario
+- \+ Autenticación sin estado, ideal para APIs REST
+- \+ Fácil de integrar con middleware en Express
+- \+ Escalable a múltiples instancias del backend sin necesidad de sincronizar sesiones
+- \+ Uso de cookies y refresh token mejora la seguridad
+- \- Requiere expiración controlada y estrategia para revocar tokens
+- \- Aumenta la complejidad de gestión de sesiones (múltiples tokens, rutas de renovación)
+- \- En caso de robo del refresh token, se necesitará una estrategia para invalidarlo por usuario
 
 ## Estado
 

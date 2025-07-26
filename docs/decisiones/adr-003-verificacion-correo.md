@@ -17,11 +17,11 @@ El registro de usuarios solo será posible tras haber verificado el código envi
 
 ## Consecuencias
 
-- ✅ Mejora la seguridad general del sistema al mitigar registros automáticos
-- ✅ Valida correos electrónicos funcionales desde el inicio
-- ✅ Permite construir sobre esta verificación futuras funciones como recuperación de cuenta o activación de features
-- ⚠️ Requiere implementar lógica de expiración y almacenamiento temporal
-- ⚠️ Agrega pasos adicionales al flujo de registro, lo cual puede afectar la conversión si no está bien diseñado
+- \+ Mejora la seguridad general del sistema al mitigar registros automáticos
+- \+ Valida correos electrónicos funcionales desde el inicio
+- \+ Permite construir sobre esta verificación futuras funciones como recuperación de cuenta o activación de features
+- \- Requiere implementar lógica de expiración y almacenamiento temporal
+- \- Agrega pasos adicionales al flujo de registro, lo cual puede afectar la conversión si no está bien diseñado
 
 ## Estado
 

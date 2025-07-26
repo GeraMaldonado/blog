@@ -17,12 +17,12 @@ Se adoptó Prisma como ORM principal para el backend del sistema. Se utilizará 
 
 ## Consecuencias
 
-- ✅ Simplificación del acceso a datos mediante un cliente autogenerado y tipado
-- ✅ Posibilidad de aplicar migraciones controladas desde código
-- ✅ Portabilidad entre motores SQL
-- ⚠️ Añade una dependencia externa considerable al proyecto
-- ⚠️ Posible falta de soporte o cambios en la comunidad a largo plazo
-- ⚠️ Si Prisma se abandona o deja de mantenerse, se necesitará migrar el ORM o trabajar directamente con SQL
+- \+ Simplificación del acceso a datos mediante un cliente autogenerado y tipado
+- \+ Posibilidad de aplicar migraciones controladas desde código
+- \+ Portabilidad entre motores SQL
+- \- Añade una dependencia externa considerable al proyecto
+- \- Posible falta de soporte o cambios en la comunidad a largo plazo
+- \-Si Prisma se abandona o deja de mantenerse, se necesitará migrar el ORM o trabajar directamente con SQL
 
 ## Estado
 

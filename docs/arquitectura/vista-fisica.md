@@ -1,4 +1,4 @@
-# 🖥️ Vista Física del Sistema – Blog Técnico Personal
+# Vista Física del Sistema – Blog Técnico Personal
 
 ## Objetivo
 
@@ -6,7 +6,7 @@ Describir la distribución de los componentes del sistema en su entorno de ejecu
 
 ---
 
-## 🧱 Infraestructura general
+## Infraestructura general
 
 El sistema se despliega actualmente en un VPS gratuito de Oracle Cloud, con un entorno controlado mediante Docker. La infraestructura mínima incluye:
 
@@ -17,7 +17,7 @@ El sistema se despliega actualmente en un VPS gratuito de Oracle Cloud, con un e
 
 ---
 
-## 📦 Contenedores Docker
+## Contenedores Docker
 
 ### 1. `frontend`
 
@@ -40,16 +40,15 @@ El sistema se despliega actualmente en un VPS gratuito de Oracle Cloud, con un e
 
 ---
 
-## 🌐 Redes y comunicación
+## Redes y comunicación
 
 - Todos los contenedores están conectados por red interna definida por Docker Compose
 - `nginx` expone el puerto 80/443 y enruta:
-  - `/api/` → `backend`
   - `/` → archivos estáticos del `frontend`
 
 ---
 
-## 🔐 Seguridad
+## Seguridad
 
 - Comunicación cifrada (plan futuro) con certificados SSL via Let’s Encrypt
 - Acceso a MySQL restringido a la red interna
@@ -57,7 +56,7 @@ El sistema se despliega actualmente en un VPS gratuito de Oracle Cloud, con un e
 
 ---
 
-## 🛠️ Automatización y CI/CD
+## Automatización y CI/CD
 
 - Se usa GitHub Actions para:
   - Lint y tests

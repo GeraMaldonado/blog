@@ -14,12 +14,12 @@ Se utilizará Docker para contenerizar el backend y facilitar su despliegue, ace
 
 ## Consecuencias
 
-- ✅ Organización clara por responsabilidad y recurso (controladores, modelos, rutas)
-- ✅ Facilidad para extender nuevas funciones (crear carpetas como `comentarios/` y conectarlas al router)
-- ✅ Estructura sencilla de entender, ideal para proyectos personales o educativos
-- ⚠️ Cada vez que se agrega una funcionalidad se debe reconstruir la imagen Docker y reiniciar el contenedor
-- ⚠️ No está optimizado para escalar por módulo ni desplegar funcionalidades sin reinicio total
-- ⚠️ Si el proyecto crece significativamente, se requerirá una reestructuración hacia una arquitectura más desacoplada (microservicios, hexagonal, etc.)
+- \+ Organización clara por responsabilidad y recurso (controladores, modelos, rutas)
+- \+ Facilidad para extender nuevas funciones (crear carpetas como `comentarios/` y conectarlas al router)
+- \+ Estructura sencilla de entender, ideal para proyectos personales o educativos
+- \- Cada vez que se agrega una funcionalidad se debe reconstruir la imagen Docker y reiniciar el contenedor
+- \- No está optimizado para escalar por módulo ni desplegar funcionalidades sin reinicio total
+- \- Si el proyecto crece significativamente, se requerirá una reestructuración hacia una arquitectura más desacoplada (microservicios, hexagonal, etc.)
 
 ## Estado
 
