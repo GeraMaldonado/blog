@@ -14,12 +14,12 @@ Organizar las historias de usuario derivadas del User Story Map según su priori
   - 🟥 Baja: deseable, sin urgencia
 
 - **Complejidad** (Story Points – escala Fibonacci):
-  - 1 → trivial
-  - 2 → simple
-  - 3 → común
-  - 5 → moderada
-  - 8 → compleja
-  - 13 → muy compleja / depende de otros
+  - 1 -> trivial
+  - 2 -> simple
+  - 3 -> común
+  - 5 -> moderada
+  - 8 -> compleja
+  - 13 -> muy compleja / depende de otros
 
 ---
 
