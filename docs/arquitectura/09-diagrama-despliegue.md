@@ -20,5 +20,4 @@
         end
     
         docker_network --> frontend
-        docker_network --> backend
 ```
