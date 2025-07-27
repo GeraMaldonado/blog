@@ -9,7 +9,7 @@
         subgraph Docker Network
             frontend[Frontend React]
             backend[Backend Node.js / Express]
-            mysql[MySQL]
+            mysql[(MySQL)]
             mongo[(MongoDB)]
             redis[(Redis)]
     
