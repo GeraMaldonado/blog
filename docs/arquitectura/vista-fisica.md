@@ -69,25 +69,13 @@ El sistema se despliega actualmente en un VPS gratuito de Oracle Cloud, con un e
 
 ## Diagrama conceptual (texto)
 
-```
-[Internet]
-    │
-    ▼
-[Nginx - Oracle VPS]
- ├── /api → [Backend Container]
- └── /     → [Frontend (static build)]
-
-[Backend Container]
- ├── Express API
- └── Prisma → [MySQL Container]
-
-[Frontend Container]
- └── React build (servido por Nginx)
-
-[MySQL Container]
- └── Volumen persistente (mysql_data)
-```
-
+```mermaid
+graph TD
+  user[Internet] <-- url --> server["Página web<br/>Nginx Oracle VPS<br> / (raíz) -> Frontend"]
+  server <-- puertos --> frontend["Frontend<br/>React static build"]
+  frontend <-- "api/docker nertwork" --> backend["Backend<br/>Express"]
+  backend <-- "prisma/docker networtk"--> db["Base de datos<br/>MySQL<br/>Redis<br/>MongoDb"]
+````
 ---
 
 ## Notas
